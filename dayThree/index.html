@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* classname */
+      .container {
+        /* background-color: purple; */
+      }
+      /* tagnames */
+      section {
+        background-color: green;
+      }
+
+      /* attribute */
+
+      section[princewill="container"] {
+        background-color: pink;
+      }
+      .inline-style {
+        background-color: blue;
+      }
+      /* id */
+
+      #section {
+        background-color: aqua;
+      }
+    </style>
+    <title>introduction to css</title>
+  </head>
+  <body>
+    <!-- syntax of css -->
+    <!-- selector(div .class #id) {color: red} -->
+    <!--dif class and id -->
+    <!-- class can be reused while id can not be reused -->
+
+    <!-- types of css -->
+    <!-- inline css -->
+    <!-- internal css -->
+    <!-- external css -->
+    <!-- inline css -->
+    <div class="inline-style" style="background-color: red; font-size: 10rem">
+      container
+    </div>
+    <span style="font-style: italic; font-weight: 900" ;>coming from span</span>
+    <em style="color: blue">emphasis</em>
+    <mark>highlight element</mark>
+    <div>wrapper</div>
+
+    <!-- internal css -->
+    <section princewill="container">internal</section>
+
+    <div id="section">styling with an id</div>
+
+    <section>take same bg color</section>
+    <section>take same bg color second</section>
+    <section>take same bg color third</section>
+
+    <!-- external css -->
+  </body>
+</html>

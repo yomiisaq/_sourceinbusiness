@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image</title>
+  </head>
+  <body>
+    <!-- <img src="./assests/6.jpg" /> -->
+    <picture>
+      <source
+        media="(min-width: 650px)"
+        srcset="./assests/0_ddBma4hDT6orclNS.jpeg"
+      />
+      <source
+        media="(min-width: 465px)"
+        srcset="./assests/0_ddBma4hDT6orclNS.jpeg"
+      />
+      <img src="./assests/6.jpg" />
+    </picture>
+
+    <img
+      src="./assests/6.jpg"
+      width="145"
+      height="126"
+      alt="Planets"
+      usemap="#planetmap"
+    />
+
+    <!-- <map name="planetmap">
+      <area
+        shape="rect"
+        coords="0,0,82,126"
+        alt="Sun"
+        href="./assests/0_ddBma4hDT6orclNS.jpeg"
+      />
+      <area
+        shape="circle"
+        coords="90,58,3"
+        alt="Mercury"
+        href="./assests/6.jpg"
+      />
+      <area
+        shape="circle"
+        coords="124,58,8"
+        alt="Venus"
+        href="./assests/0_ddBma4hDT6orclNS.jpeg"
+      />
+    </map> -->
+  </body>
+</html>

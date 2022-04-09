@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <body>
+    <table border="3">
+      <caption>
+        food items
+      </caption>
+      <tr>
+        <th>item</th>
+        <th>quantity</th>
+        <th>price</th>
+      </tr>
+      <tr>
+        <td>rice</td>
+        <td>5</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td rowspan="2">beans</td>
+        <td>2</td>
+        <td>200</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">yam</td>
+        <td>2</td>
+        <td>200</td>
+      </tr>
+    </table>
+
+    <hr />
+    <table>
+      <caption>
+        inventories
+      </caption>
+      <thead>
+        <tr>
+          <th>item</th>
+          <th>quantity</th>
+          <th>price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>rice</td>
+          <td>5</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>beans</td>
+          <td>2</td>
+          <td>200</td>
+        </tr>
+
+        <tr>
+          <td>yam</td>
+          <td>2</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">this is the table foot</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
